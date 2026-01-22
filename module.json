@@ -6,7 +6,7 @@
     "minimum": "12",
     "verified": "13.351"
   },
-	"manifest":"",
+	"manifest":"https://github.com/ThtRndmNrd/Arkhive-s-Homebrew-Modules/blob/f370e2207ae216a34a56a776db36f4b3d7db5a7b/module.json",
 	"download":"",
   "relationships": {
     "requires": [
