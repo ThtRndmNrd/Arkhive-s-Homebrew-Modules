@@ -6,7 +6,7 @@
     "minimum": "12",
     "verified": "13.351"
   },
-	"manifest":"https://github.com/ThtRndmNrd/Arkhive-s-Homebrew-Modules/blob/main/module.json",
+	"manifest":"https://raw.githubusercontent.com/ThtRndmNrd/Arkhive-s-Homebrew-Modules/refs/heads/main/module.json?token=GHSAT0AAAAAADR74S77TPTOY2DN3WBM5HWK2LSQYLQ",
 	"download":"https://github.com/ThtRndmNrd/Arkhive-s-Homebrew-Modules/blob/main/arkhives-homebrew-modules%20(2).zip",
   "relationships": {
     "requires": [
