@@ -1,0 +1,248 @@
+{
+  "id": "arkhives-homebrew-modules",
+  "title": "Kai's Homebrew Module",
+  "version": "0.6.4",
+  "compatibility": {
+    "minimum": "12",
+    "verified": "13.351"
+  },
+  "relationships": {
+    "requires": [
+      {
+        "id": "illandril-third-pact",
+        "type": "module",
+        "compatibility": {}
+      }
+    ],
+    "systems": [
+      {
+        "id": "dnd5e",
+        "type": "system",
+        "compatibility": {}
+      }
+    ],
+    "recommends": [
+      {
+        "id": "dice-so-nice",
+        "type": "module",
+        "compatibility": {}
+      },
+      {
+        "id": "dnd5e-content-manager",
+        "type": "module",
+        "compatibility": {}
+      }
+    ],
+    "conflicts": [
+      {
+        "id": "spell-book",
+        "type": "module",
+        "compatibility": {}
+      }
+    ]
+  },
+  "authors": [
+    {
+      "name": "Arkhive",
+      "email": "pittoo2003@gmail.com",
+      "discord": "arkhive_",
+      "flags": {}
+    }
+  ],
+
+  "packs": [
+    {
+      "name": "classes-hb",
+      "label": "Classes (Non-SRD)",
+      "path": "packs/classes-hb",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "subclasses-hb",
+      "label": "Subclasses (Non-SRD)",
+      "path": "packs/subclasses-hb",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "spells-non-srd",
+      "label": "Spells (Non-SRD)",
+      "path": "packs/spells-non-srd",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "items-non-srd",
+      "label": "Items (Non-SRD)",
+      "path": "packs/items-non-srd",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "feats-non-",
+      "label": "Feats (Non-SRD)",
+      "path": "packs/feats-non-",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "backgrounds",
+      "label": "Backgrounds (Non-SRD)",
+      "path": "packs/backgrounds",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "monsters-non-srd",
+      "label": "Monsters (Non-SRD)",
+      "path": "packs/monsters-non-srd",
+      "type": "Actor",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "class-and-subclass-features-non-srd",
+      "label": "Class and Subclass Features (Non-SRD)",
+      "path": "packs/class-and-subclass-features-non-srd",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "misc-tables",
+      "label": "Misc. Tables",
+      "path": "packs/misc-tables",
+      "type": "RollTable",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "table-rules",
+      "label": "Table Rules",
+      "path": "packs/table-rules",
+      "type": "JournalEntry",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "monster-features-non-srd",
+      "label": "Monster Features (Non-SRD)",
+      "path": "packs/monster-features-non-srd",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "adventures",
+      "label": "Adventures",
+      "path": "packs/adventures",
+      "type": "Adventure",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "races-species-non-srd",
+      "label": "Races/Species (Non-SRD)",
+      "path": "packs/races-species-non-srd",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    }
+  ],
+"packFolders":[
+	{
+		"name": "Non-SRD/Homebrew Content",
+		"color": "#003264",
+		"sorting": "a",
+		"packs": [
+			"adventures",
+			"table-rules",
+			"misc-tables"
+		],
+
+		"folders": [
+			{
+				"name": "Character Features",
+				"sorting": "a",
+				"color": "#002850",
+				"packs": [
+					"classes-hb",
+					"subclasses-hb",
+					"feats-non-",
+					"backgrounds",
+					"class-and-subclass-features-non-srd",
+					"races-species-non-srd"
+				]
+			},
+
+			{
+				"name": "Items & Spells",
+				"sorting": "a",
+				"color": "#001e3c",
+				"packs": [
+					"items-non-srd",
+					"spells-non-srd"
+				]
+			},
+
+			{
+				"name": "Monsters",
+				"sorting": "a",
+				"color": "#001428",
+				"packs": [
+					"monster-features-non-srd",
+					"monsters-non-srd"
+				]
+			}
+		]
+	}
+  ],
+  "description": "<p>This is a collection of information from both homebrew and proper sources, expanding beyond the D&amp;D 5e SRD 5.1.</p>",
+  "flags": {}
+}
