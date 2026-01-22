@@ -6,6 +6,8 @@
     "minimum": "12",
     "verified": "13.351"
   },
+	"manifest":"",
+	"download":"",
   "relationships": {
     "requires": [
       {
